@@ -1,0 +1,22 @@
+{
+  "name": "chat_app",
+  "version": "0.0.0",
+  "description": "Basic chat app with socket.io, node, and react",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.14.0",
+    "mongoose": "^5.5.6",
+    "mssql": "^3.3.0",
+    "mysql": "^2.17.1",
+    "socket.io": "^2.2.0",
+    "socketio": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Steve Meyer",
+    "email": "sameyer17@gmail.com"
+  }
+}
